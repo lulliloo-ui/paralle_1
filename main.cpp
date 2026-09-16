@@ -51,6 +51,6 @@ int main(int argc, char * argv[])
     res += futures[i].get();
   }
   total = cl.millisec();
-  std::cout << total - init;
+  std::cout << total - init << "мс\n";
   return 0;
 }
